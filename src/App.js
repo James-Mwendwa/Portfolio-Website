@@ -1,11 +1,11 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import './App.css';
-import Header from './Header';
-import Home from './Home';
-import About from './About';
-import Skills from './Skills';
-import Portfolio from './Portfolio';
-import Contacts from './Contacts'
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import "./App.css";
+import Header from "./Header";
+import Home from "./Home";
+import About from "./About";
+import Skills from "./Skills";
+import Portfolio from "./Portfolio";
+import Contacts from "./Contacts";
 
 function App() {
   return (
