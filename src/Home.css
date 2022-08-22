@@ -1,0 +1,10 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image > img {
+ width: auto;
+ height: 100%;
+}

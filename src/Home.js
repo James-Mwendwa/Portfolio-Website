@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 
 function Home() {
   return (
@@ -9,9 +10,9 @@ function Home() {
           Developer{" "}
         </h2>
         <button>Hire Me</button>
-        <div className="image">
-          <img src="" alt="" />
-        </div>
+      </div>
+      <div className="image">
+        <img src="/images/image2.jpg" alt="" />
       </div>
     </div>
   );
