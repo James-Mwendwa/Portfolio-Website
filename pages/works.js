@@ -1,10 +1,16 @@
-import React from "react";
+import Head from "next/head";
 
 function Works() {
   return (
-    <div>
-      <h2>Projects</h2>
-    </div>
+    <>
+      <Head>
+        <title>Portfolio | Portfolio</title>
+        <meta name="keywords" content="work" />
+      </Head>
+      <div>
+        <h2>Projects</h2>
+      </div>
+    </>
   );
 }
 

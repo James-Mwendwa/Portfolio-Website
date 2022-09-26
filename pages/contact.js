@@ -1,7 +1,16 @@
-import React from "react";
+import Head from "next/head";
 
 function Contact() {
-  return <div>contact</div>;
+  return (
+    <>
+      <Head>
+        <title>Portfolio | Contacts</title>
+      </Head>
+      <div>
+        <h2>Contacts</h2>
+      </div>
+    </>
+  );
 }
 
 export default Contact;
