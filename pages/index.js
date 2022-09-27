@@ -8,6 +8,7 @@ export default function Home() {
         <title>Portfolio | Home</title>
         <meta name="keywords" content="work" />
       </Head>
+
       <div className={styles.container}>
         <h2>Portfolio Website</h2>
       </div>
