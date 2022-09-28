@@ -1,5 +1,9 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Layout from "../components/Layout";
+import About from "../pages/about";
+import Skills from "../pages/skills";
+import Portfolio from "../pages/works";
+import Contacts from "../pages/contact";
 
 export default function Home() {
   return (
@@ -8,10 +12,12 @@ export default function Home() {
         <title>Portfolio | Home</title>
         <meta name="keywords" content="work" />
       </Head>
-
-      <div className={styles.container}>
-        <h2>Portfolio Website</h2>
-      </div>
+      <Layout>
+        <About />
+        <Skills />
+        <Portfolio />
+        <Contacts />
+      </Layout>
     </>
   );
 }
