@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Luckiest+Guy&family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-        
-    
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
        
     
        
@@ -10,8 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;  
-   font-family: 'Luckiest Guy',cursive; 
-        font-family: 'Righteous', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -28,6 +23,5 @@ a {
   display: flex;
   place-content: center;
   justify-content: space-evenly;
-  font-family: 'Jockey One',sans-serif;
   font-size: 28px;
 }

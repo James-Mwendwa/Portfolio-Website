@@ -8,7 +8,8 @@ function About() {
         <meta name="keywords" content="work" />
       </Head>
       <div>
-        <h2>About page</h2>
+        <h2>ABOUT ME</h2>
+        <p></p>
       </div>
     </>
   );
