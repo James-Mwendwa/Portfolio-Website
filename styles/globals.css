@@ -10,18 +10,15 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-
+   text-decoration: none;
+   margin-left: 80px;
+   cursor: pointer;
 }
 
 * {
   box-sizing: border-box;
+  top: 0;
 }
 
-.navbar {
-  display: flex;
-  place-content: center;
-  justify-content: space-evenly;
-  font-size: 28px;
-}
+
+

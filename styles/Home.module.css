@@ -1,0 +1,25 @@
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.hero {
+   align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -6,19 +6,29 @@ import Portfolio from "../pages/works";
 import Contacts from "../pages/contact";
 import Image from "next/image";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <>
-      <div className="homepage">
-        <Image src="/images/hero.jpg" alt="hero" width={70} height={70} />
-        <h2>
-          HI THERE <br></br> MY NAME IS JAMES MWENDWA
-        </h2>
-        <button>
-          DOWNLOAD CV
-          <FileDownloadIcon />
-        </button>
+      <div className={styles.homepage}>
+        <Image
+          className={styles.heroImage}
+          src="/images/hero.jpg"
+          alt="hero"
+          height={350}
+          width={350}
+        />
+        <div className="hero">
+          <h2>
+            HI THERE <br></br> MY NAME IS JAMES MWENDWA
+          </h2>
+          <p>A SOFTWARE ENGINEER BASED IN NAIROBI, KENYA</p>
+          <button className={styles.button}>
+            DOWNLOAD CV
+            <FileDownloadIcon />
+          </button>
+        </div>
       </div>
       <>
         <About />

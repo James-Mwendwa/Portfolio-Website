@@ -1,0 +1,17 @@
+.about {
+  height: 60vh;
+  display: grid;
+  place-content: center;
+
+}
+
+.title {
+    display: grid;
+    place-content: center;
+    color: red;
+}
+
+.desc {
+    display: grid;
+    place-content: center;
+}
