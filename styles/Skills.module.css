@@ -1,14 +1,20 @@
-.cards {
+.skillsCard {
+    margin: 40px 70px;
+   
+}
+
+.card {
     display: flex;
     align-items: center;
-    margin-left: 50px;
-    background-color: yellow;
+   
 }
+
+
 
 .skillCard {
     border: 2px solid green;
     height: 50px;
-    width: 150px;
+    width: 170px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from "../styles/Work.module.css";
 
 function Works() {
   return (
@@ -8,7 +9,7 @@ function Works() {
         <meta name="keywords" content="work" />
       </Head>
       <div>
-        <h2>Projects</h2>
+        <h2 className={styles.title}>Projects</h2>
       </div>
     </>
   );

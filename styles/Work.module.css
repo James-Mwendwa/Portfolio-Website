@@ -1,0 +1,6 @@
+.title {
+    display: grid;
+    place-content: center;
+    color: red;
+    margin-top: 80px;
+}
