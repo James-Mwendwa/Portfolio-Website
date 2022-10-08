@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import Head from "next/head";
+import styles from "../styles/Contact.module.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
@@ -40,16 +41,35 @@ function Contact() {
           <GitHubIcon />
           <LinkedInIcon />
         </div>
-        <h2>Contacts</h2>
-        <div className="formPage">
-          <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="user_name" required autoComplete="off" />
-            <label>Email</label>
-            <input type="email" name="user_email" required autoComplete="off" />
-            <label>Message</label>
-            <textarea name="message" required autoComplete="off" />
-            <input type="submit" value="Send" />
+        <h2 className={styles.title}>Contacts</h2>
+        <div className={styles.formPage}>
+          <form className={styles.form} ref={form} onSubmit={sendEmail}>
+            <input
+              className={styles.input}
+              type="text"
+              name="user_name"
+              placeholder="Name"
+              required
+              autoComplete="off"
+            />
+
+            <input
+              className={styles.input}
+              type="email"
+              name="user_email"
+              required
+              placeholder="Email"
+              autoComplete="off"
+            />
+
+            <textarea
+              className={styles.input}
+              name="message"
+              placeholder="Type your message here..."
+              required
+              autoComplete="off"
+            />
+            <input className={styles.submit} type="submit" value="Send" />
           </form>
         </div>
       </div>

@@ -1,0 +1,31 @@
+.title {
+    display: grid;
+    place-content: center;
+    color: red;
+}
+
+.formPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.submit {
+    padding: 12px 15px;
+    background-color: orangered;
+    color: #fff;
+}
