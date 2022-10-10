@@ -63,7 +63,7 @@ function Contact() {
             />
 
             <textarea
-              className={styles.input}
+              className={styles.textarea}
               name="message"
               placeholder="Type your message here..."
               required

@@ -15,17 +15,30 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    width: 800px;
+    width: 600px;
 }
 
-.input {
+.input,
+.textarea {
     padding: 10px;
     margin-top: 10px;
     width: 100%;
+    outline: none;
+    font-size: 18px;
+    border: 2px solid orangered;
+}
+
+.textarea{
+    margin-top: 20px;
+    font-size: 18px;
 }
 
 .submit {
     padding: 12px 15px;
     background-color: orangered;
     color: #fff;
+    width: 600px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 18px;
 }
