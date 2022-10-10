@@ -1,3 +1,8 @@
+.skills {
+    background-color: #111213;
+    color: #fff;
+}
+
 .skillsCard {
     margin: 40px 70px;
    
@@ -8,8 +13,6 @@
     align-items: center;
    
 }
-
-
 
 .skillCard {
     border: 2px solid green;

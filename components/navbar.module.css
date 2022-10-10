@@ -4,12 +4,17 @@
     justify-content: space-between; 
     font-size: 18px;
     margin: 0 250px;
+    color: #fff;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.navbar > a {
+    color: #fff;
 }
 
 .logo {

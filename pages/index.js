@@ -7,10 +7,16 @@ import Contacts from "../pages/contact";
 import Image from "next/image";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import styles from "../styles/Home.module.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function Home() {
   return (
     <>
+      <div className={styles.socials}>
+        <GitHubIcon />
+        <LinkedInIcon />
+      </div>
       <div className={styles.homepage}>
         <Image
           className={styles.heroImage}
@@ -21,9 +27,11 @@ export default function Home() {
         />
         <div className="hero">
           <h2>
-            HI THERE <br></br> MY NAME IS JAMES MWENDWA
+            HI THERE <br></br>
+            MY NAME IS JAMES MWENDWA
           </h2>
           <p>A SOFTWARE ENGINEER BASED IN NAIROBI, KENYA</p>
+          <br></br>
           <button className={styles.button}>
             DOWNLOAD CV
             <FileDownloadIcon />

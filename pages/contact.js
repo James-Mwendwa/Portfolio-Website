@@ -3,8 +3,6 @@ import emailjs from "@emailjs/browser";
 
 import Head from "next/head";
 import styles from "../styles/Contact.module.css";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Contact() {
   const form = useRef();
@@ -37,10 +35,6 @@ function Contact() {
         <title>Portfolio | Contacts</title>
       </Head>
       <div>
-        <div className="socials">
-          <GitHubIcon />
-          <LinkedInIcon />
-        </div>
         <h2 className={styles.title}>Contacts</h2>
         <div className={styles.formPage}>
           <form className={styles.form} ref={form} onSubmit={sendEmail}>

@@ -2,5 +2,38 @@
     display: grid;
     place-content: center;
     color: red;
-    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.projects {
+    background-color: #111213;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.image {
+    cursor: pointer;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.info {
+    margin-left: 100px;
+}
+
+.info > h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.info > p {
+    font-size: 18px;
 }

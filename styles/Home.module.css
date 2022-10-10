@@ -5,6 +5,11 @@
     height: 85vh;
     margin-left: 70px;
     margin-right: 100px;
+    color: #fff;        
+}
+
+.heroImage{
+  border-radius: 50%;
 }
 
 .hero {
@@ -22,4 +27,5 @@
     padding: 12px 15px;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 10px;
 }

@@ -8,8 +8,9 @@ function Skills() {
         <title>Portfolio | Skills</title>
         <meta name="keywords" content="work" />
       </Head>
-      <h2 className={styles.title}>SkILLS</h2>
+
       <div className={styles.skills}>
+        <h2 className={styles.title}>SkILLS</h2>
         <div className={styles.skillsCard}>
           <div className={styles.card}>
             <div className={styles.skillCard}>
