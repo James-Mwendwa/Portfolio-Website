@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Work.module.css";
 import { projects } from "../lib/data";
+import { motion } from "framer-motion";
 
 function Works() {
   return (
@@ -10,11 +11,11 @@ function Works() {
         <title>Portfolio | Portfolio</title>
         <meta name="keywords" content="work" />
       </Head>
-      <div className={styles.projects}>
+      <motion.div className={styles.projects}>
         <h2 className={styles.title}>PROJECTS</h2>
         {projects.map((project, index) => {
           return (
-            <div className={styles.container} key={index}>
+            <motion.div className={styles.container} key={index}>
               <div className={styles.image}>
                 <Image
                   src={project.image}
@@ -27,10 +28,10 @@ function Works() {
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
               </div>
-            </div>
+            </motion.div>
           );
         })}
-      </div>
+      </motion.div>
     </>
   );
 }

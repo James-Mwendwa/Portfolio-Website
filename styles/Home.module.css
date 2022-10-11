@@ -29,3 +29,10 @@
     cursor: pointer;
     margin-top: 10px;
 }
+
+.socials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
