@@ -5,6 +5,7 @@
     font-size: 18px;
     margin: 0 250px;
     color: #fff;
+    height: 80px;
 }
 
 .navbar {
@@ -25,4 +26,50 @@
 .underline {
     border-bottom: 3px solid red;
     margin-bottom: 10px;
+}
+
+.menuIcon {
+    display: none;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.mobileNavigation {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .navigation {
+        display: none;
+     
+    }
+    
+    .mobileNavigation {
+            display: flex;
+            align-items: center;
+            
+    }
+
+    .menuIcon {
+        display: flex;
+        position: absolute;
+        right: 5%;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        top: 80px;
+        position: absolute;
+        right: 0;
+        margin: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
 }
