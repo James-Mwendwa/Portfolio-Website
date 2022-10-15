@@ -5,6 +5,8 @@ function Footer() {
     display: "grid",
     placeContent: "center",
     bottom: 0,
+    color: "white",
+    marginTop: "30px",
   };
   return (
     <div style={style}>

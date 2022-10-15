@@ -37,3 +37,24 @@
 .info > p {
     font-size: 18px;
 }
+
+@media (max-width: 480px ) {
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info {
+        margin-left: -20px;
+    }
+
+    .info > h3 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .info > p {
+        font-size: 13px;
+    }
+}

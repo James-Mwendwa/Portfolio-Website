@@ -29,3 +29,27 @@
     place-content: center;
     color: red;
 }
+
+@media (max-width: 480px ) {
+    .skills {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+
+    .title {
+        margin-top: 20px;
+    }
+
+    .skillCard > h3 {
+        font-size: 16px;
+    }
+}

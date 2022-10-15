@@ -36,3 +36,36 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media (max-width: 480px) {
+
+  .homepage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    margin-bottom: 60px;  
+  }
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -40px;
+    
+   }
+
+   .hero > h2 {
+    font-size: 16px;
+   
+   }
+
+   .hero > p {
+    font-size: 13px;
+   }
+
+   .button {
+    padding: 6px 8px;
+    margin-left: -60px;
+    font-size: 14px;
+   }
+}

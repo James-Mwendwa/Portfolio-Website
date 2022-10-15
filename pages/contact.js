@@ -34,7 +34,7 @@ function Contact() {
       <Head>
         <title>Portfolio | Contacts</title>
       </Head>
-      <div>
+      <div className={styles.contact}>
         <h2 className={styles.title}>Contacts</h2>
         <div className={styles.formPage}>
           <form className={styles.form} ref={form} onSubmit={sendEmail}>

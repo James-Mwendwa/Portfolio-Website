@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Work.module.css";
+import styles from "../styles/Portfolio.module.css";
 import { projects } from "../lib/data";
 import { motion } from "framer-motion";
 
-function Works() {
+function Portfolio() {
   return (
     <>
       <Head>
@@ -36,4 +36,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default Portfolio;

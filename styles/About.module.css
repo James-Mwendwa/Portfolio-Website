@@ -20,3 +20,16 @@
     display: grid;
     place-content: center;
 }
+
+@media (max-width: 480px) {
+ .about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 25px;
+ }
+
+ .about > p {
+  font-size: 14px;
+ }
+}
