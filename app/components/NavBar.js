@@ -1,17 +1,19 @@
 import Link from "next/link";
 
 const links = [
-  { name: "About", href: "/portfolio/about" },
-  { name: "Projects", href: "/portfolio/projects" },
-  { name: "Blog", href: "/portfolio/blog" },
-  { name: "Contact", href: "/portfolio/contact" },
+  { name: "About", href: "/about" },
+  { name: "Projects", href: "/projects" },
+  { name: "Blog", href: "/blog" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function NavBar() {
   return (
     <div className="bg-white rounded-md flex items-center justify-between p-3">
       <div>
-        <h2 className="text-lg font-semibold">James Mwendwa</h2>
+        <Link href="/" className="text-lg font-semibold">
+          James Mwendwa
+        </Link>
       </div>
 
       <div className="flex items-center space-x-6">
