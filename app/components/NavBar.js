@@ -9,7 +9,7 @@ const links = [
 
 export default function NavBar() {
   return (
-    <div className="bg-white rounded-md flex items-center justify-between p-3">
+    <div className="bg-white rounded-md flex items-center justify-between p-3 font-sans">
       <div>
         <Link href="/" className="text-lg font-semibold">
           James Mwendwa

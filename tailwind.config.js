@@ -16,6 +16,10 @@ module.exports = {
       colors: {
         primaryBg: "#194769",
       },
+
+      fontFamily: {
+        sans: ["Urbanist", "sans-serif"],
+      },
     },
   },
   plugins: [],

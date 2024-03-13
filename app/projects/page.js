@@ -30,7 +30,7 @@ const projects = [
 
 export default function ProjectsBanner() {
   return (
-    <div className="px-10 pt-20">
+    <div className="px-10 pt-20 font-sans">
       <h2 className="text-slate-300 text-7xl font-extrabold">Projects</h2>
 
       <p className="text-xl text-slate-400 mt-8 font-medium">

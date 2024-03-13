@@ -2,7 +2,7 @@ import Experience from "@/app/components/Experience/Experience";
 
 export default function About() {
   return (
-    <div className="px-10 pt-20">
+    <div className="px-10 pt-20 font-sans">
       <h2 className="text-slate-300 text-7xl font-extrabold">About James</h2>
 
       <p className="text-slate-300 mt-8">

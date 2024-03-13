@@ -2,7 +2,7 @@ import ResumeButton from "@/app/components/Buttons/ResumeButton";
 
 export default function Home() {
   return (
-    <main className="w-full flex flex-wrap px-10 py-20">
+    <main className="w-full flex flex-wrap px-10 py-20 font-sans">
       <div className="w-1/2">
         <div>
           <h1 className="text-white text-8xl font-extrabold">James</h1>
