@@ -1,3 +1,5 @@
+import Experience from "@/app/components/Experience/Experience";
+
 export default function About() {
   return (
     <div className="px-10 pt-20">
@@ -26,6 +28,8 @@ export default function About() {
         Feel free to reach out to me to discuss how we can <br /> work together
         to bring your ideas to life.
       </p>
+
+      <Experience />
     </div>
   );
 }
