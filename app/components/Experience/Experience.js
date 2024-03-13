@@ -12,7 +12,7 @@ export default function Experience() {
           2022 - Present / Freelancer
         </p>
 
-        <p className="mt-8 text-slate-300 text-base font-semibold">
+        <p className="mt-8 text-slate-300 text-base font-medium">
           I design and develop scalable web applications using cutting-edge
           technologies such as <br /> React, Next.js, Node.js, and MongoDB. My
           responsibilities include architecting robust
